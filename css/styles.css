@@ -139,3 +139,19 @@ p {
     background-color: #26547C;
     color: white;
 }
+
+.team {
+    overflow: hidden;
+}
+
+.team-fun, .team-values, .team-meow {
+    float: left;
+    width: 33.33333%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EF476F;
+}
+
+.call-to-action, .products, .about {
+  padding: 30px 20px;
+}
