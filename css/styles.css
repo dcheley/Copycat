@@ -14,78 +14,78 @@ html {
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    height: 60px;
-    background-color: #06D6A0;
-    padding: 0 20px;
-    text-align: center;
+  height: 60px;
+  background-color: #06D6A0;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .logo {
-    margin: 0;
-    color: white;
-    font-size: 30px;
+  margin: 0;
+  color: white;
+  font-size: 30px;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item {
-    margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .hero-content {
-    text-align: center;
+  text-align: center;
 }
 
 .hero-content > h2 {
-    display: inline-block;
-    padding-bottom: 5px;
-    border-bottom: 5px solid #EF476F;
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #EF476F;
 }
 
 .call-to-action, .products, .about {
-    padding: 30px 20px;
+  padding: 30px 20px;
 }
 
 .call-to-action {
-    background-color: #FFD166;
+  background-color: #FFD166;
 }
 
 .products {
-    background-color: #F2F2F2;
+  background-color: #F2F2F2;
 }
 
 .about {
-    background-color: #26547C;
-    color: white;
+  background-color: #26547C;
+  color: white;
 }
 
 .container {
-    max-width: 900px;
-    margin: auto;
+  max-width: 900px;
+  margin: auto;
 }
 
 .team {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .team-fun, .team-values, .team-meow {
-    float: left;
-    width: 33.33333%;
-    text-transform: uppercase;
-    text-align: center;
-    color: #EF476F;
+  float: left;
+  width: 33.33333%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EF476F;
 }
 
 @media screen and (min-width: 550px) {
