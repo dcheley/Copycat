@@ -52,6 +52,34 @@ img {
     text-align: center;
 }
 
+.hero-content > h2 {
+    display: inline-block;
+    padding-bottom: 5px;
+    border: 0;
+}
+
+.call-to-action, .products, .about {
+  padding: 30px 20px;
+}
+
+.call-to-action {
+    background-color: #FFD166;
+}
+
+.products {
+  background-color: #F2F2F2;
+}
+
+.about {
+    background-color: #26547C;
+    color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
 h1 {
   display: block;
   -webkit-margin-before: 0.67em;
@@ -92,10 +120,7 @@ a:-webkit-any-link {
     padding: 0;
 }
 
-.container {
-    max-width: 900px;
-    margin: auto;
-}
+
 
 main {
     display: block;
@@ -117,11 +142,7 @@ div {
 }
 
 
-.hero-content > h2 {
-    display: inline-block;
-    padding-bottom: 5px;
-    border: 0;
-}
+
 
 h2 {
     display: block;
@@ -133,10 +154,6 @@ h2 {
     font-weight: bold;
 }
 
-.call-to-action {
-    padding: 30px 20px;
-    background-color: #FFD166;
-}
 
 h3 {
     display: block;
@@ -170,10 +187,7 @@ p {
     border: 3px solid black;
 }
 
-.about {
-    background-color: #26547C;
-    color: white;
-}
+
 
 .team {
     overflow: hidden;
@@ -187,9 +201,6 @@ p {
     color: #EF476F;
 }
 
-.call-to-action, .products, .about {
-  padding: 30px 20px;
-}
 
 footer {
     background-color: #06D6A0;
