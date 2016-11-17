@@ -94,34 +94,34 @@ img {
   }
 
   .product-wrapper {
-      overflow: hidden;
+    overflow: hidden;
   }
 
   .product-item {
-      float: left;
-      width: 33%;
-      padding: 10px;
+    float: left;
+    width: 33%;
+    padding: 10px;
   }
 
   .product-item > img {
-      border: 3px solid black;
+    border: 3px solid black;
   }
 
   .hero {
-      overflow: hidden;
-      background-color: #26547C;
-      color: white;
+    overflow: hidden;
+    background-color: #26547C;
+    color: white;
   }
 
   .hero-image {
-      float: left;
-      width: 60%;
+    float: left;
+    width: 60%;
   }
 
   .hero-content {
-      float: left;
-      width: 40%;
-      font-size:  25px;
+    float: left;
+    width: 40%;
+    font-size:  25px;
   }
 
   .hero-content > h2 {
@@ -151,7 +151,6 @@ img {
     line-height: 60px;
   }
 }
-
 
 footer {
     background-color: #06D6A0;
