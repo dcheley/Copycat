@@ -155,3 +155,11 @@ p {
 .call-to-action, .products, .about {
   padding: 30px 20px;
 }
+
+footer {
+    background-color: #06D6A0;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding: 0 20px;
+}
