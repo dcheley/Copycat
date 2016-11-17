@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+head {
+  display: none;
+  display: block;
+}
 header {
   background-color: #06D6A0;
   padding: 20px;
@@ -46,6 +50,10 @@ ul, menu {
 li {
   display: list-item;
   text-align: -webkit-match-parent;
+}
+
+body {
+  margin: 0;
 }
 
 .container {
