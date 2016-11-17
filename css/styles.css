@@ -37,7 +37,6 @@ ul {
 }
 
 .nav-item {
-    display: inline;
     margin-right: 10px;
 }
 
@@ -141,30 +140,10 @@ img {
     font-size: 18px;
   }
 
-nav {
-  display: block;
-}
-
-
-
-ul, menu {
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
-}
 
 li {
   display: list-item;
   text-align: -webkit-match-parent;
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
-    text-decoration: underline;
-    cursor: auto;
 }
 
 .navbar {
@@ -219,6 +198,11 @@ p {
 
 
 
+.nav-item {
+    display: inline-block;;
+    margin-right: 10px;
+    line-height: 60px;
+}
 
 
 
